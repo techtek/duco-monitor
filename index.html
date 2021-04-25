@@ -9,7 +9,7 @@
 		<link rel='stylesheet' href='plugins/bootstrap/dist/css/bootstrap.min.css'/>
 		<link rel='stylesheet' href='plugins/font-awesome/css/font-awesome.min.css'/>
 		<link rel='stylesheet' href='dist/css/AdminLTE.min.css'/>
-		<link rel='stylesheet' href='dist/css/skins/skin-blue.min.css'/>
+		<link rel='stylesheet' href='dist/css/skins/skin-black.min.css'/>
 		<link rel='stylesheet' href='dist/css/axkjfkdfhk.css'/>
 		<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic'/>
 		
@@ -18,7 +18,7 @@
 		<script src='https://oss.maxcdn.com/respond/1.4.2/respond.min.js'></script>
 		<![endif]-->
 	</head>
-	<body class='hold-transition skin-blue layout-top-nav'>
+	<body class='hold-transition skin-black layout-top-nav'>
 
 		<div class='wrapper'>
 
@@ -92,7 +92,7 @@
 						<div class="row">
 							<div class="col-md-3 col-sm-6 col-xs-12">
 								<div class="info-box">
-									<span class="info-box-icon bg-aqua"><i class="fa fa-sitemap"></i></span>
+									<span class="info-box-icon bgcolor-#311B58"><i class="fa fa-sitemap"></i></span>
 
 									<div class="info-box-content">
 										<span class="info-box-text">Active Workers</span>
@@ -105,17 +105,36 @@
 							<!-- /.col -->
 							<div class="col-md-3 col-sm-6 col-xs-12">
 								<div class="info-box">
-									<span class="info-box-icon bg-red"><i class="fa fa-dollar"></i></span>
+									<span class="info-box-icon bg-orange"><i class="fa fa-dollar"></i></span>
 
 									<div class="info-box-content">
 										<span class="info-box-text">DUCO Price</span>
 										<span class="info-box-number"><span id='counter-price'>-</span></span>
 										<span class="info-box-text"><span id='counter-price-change'></span></span>
 									</div>
+									
+									
 									<!-- /.info-box-content -->
 								</div>
 								<!-- /.info-box -->
 							</div>
+							
+														<div class="col-md-3 col-sm-6 col-xs-12">
+								<div class="info-box">
+									<span class="info-box-icon bg-#7296E"><i class="fa fa-dollar"></i></span>
+
+									<div class="info-box-content">
+										<span class="info-box-text">AE Price</span>
+										<span class="info-box-number"><span id='counter-priceAE'>-</span></span>
+										<span class="info-box-text"><span id='counter-price-changeAE'></span></span>
+									</div>
+									
+									
+									<!-- /.info-box-content -->
+								</div>
+								<!-- /.info-box -->
+							</div>
+							
 							<!-- /.col -->
 
 							<div class="clearfix visible-sm-block"></div>
@@ -136,7 +155,7 @@
 							<!-- /.col -->
 							<div class="col-md-3 col-sm-6 col-xs-12">
 								<div class="info-box">
-									<span class="info-box-icon bg-green"><i class="fa fa-money"></i></span>
+									<span class="info-box-icon bg-orange"><i class="fa fa-money"></i></span>
 
 									<div class="info-box-content">
 										<span class="info-box-text">DUCO Balance</span>
@@ -146,8 +165,24 @@
 									<!-- /.info-box-content -->
 								</div>
 								<!-- /.info-box -->
+								
 							</div>
 							<!-- /.col -->
+							
+							<div class="col-md-3 col-sm-6 col-xs-12">
+								<div class="info-box">
+									<span class="info-box-icon bg-pink"><i class="fa fa-money"></i></span>
+
+									<div class="info-box-content">
+										<span class="info-box-text">AE Balance</span>
+										<span class="info-box-number"><span id='counter-balanceAE'>-</span></span>
+										<span class="info-box-text"><span id='counter-dollarAE'></span></span>
+									</div>
+									<!-- /.info-box-content -->
+								</div>
+								<!-- /.info-box -->
+								
+							</div>
 						</div>
 						
 						<div class='row'>
